@@ -8,6 +8,12 @@ function countLetters(str){
 
     //loop over the string
     for(let i = 0; i < str.length; i++){
+        
+        //Sam's mentions.. breaking up things a bit to understand them better
+        //with respect to line 25..
+        // var currentLetter = str[i];
+        // object[currentLetter] = 0;
+
         //intitialize count to 0
         let count = 0;
         //second index to loop and compare the elements in the string
